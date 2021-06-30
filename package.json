@@ -23,6 +23,9 @@
     "test": "tsdx test",
     "prepublishOnly": "tsdx build"
   },
+  "peerDependencies": {
+    "@uniswap/sdk-core": "git+https://github.com/yanabaskakova/uniswap-sdk-core.git"
+  },
   "dependencies": {
     "@ethersproject/abi": "^5.0.12",
     "@ethersproject/solidity": "^5.0.9",
